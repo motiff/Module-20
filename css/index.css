@@ -1,0 +1,35 @@
+.fill{
+  /* background-image: url(https://cataas.com/cat); */
+  background-image: url("../images/dcbanner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+  height: 70vh;
+  position: relative;
+}
+/* .introSection{
+  justify-content: space-around;
+} */
+.title{
+  position: absolute;
+  bottom: 120px;
+  right: 50px;
+  text-shadow: 1px 1px 2px darkgray;
+}
+.subtitle{
+  position: absolute;
+  bottom: 80px;
+  right: 50px;
+  text-shadow: 1px 1px 2px darkgray;
+}
+.sidebar{
+  top: 40px;
+}
+.col-2{
+  display: unset;
+}
+.banner{
+  background-color: aqua;
+  /* background-image: "./images/dctop.png"; */
+  height: 100%;
+}
