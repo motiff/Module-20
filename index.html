@@ -14,7 +14,7 @@
   <!-- This stylesheet is an example of how you can add your own stylesheet to customize bootstrap components. Notice how it is loaded 2nd to the required bootstrap stylesheet. This is so our stylesheet will overwrite bootstrap classes when we apply the same class but different styles to the stylsheet -->
   <link rel="stylesheet" href="css/index.css">
 
-  <title>Case Study</title>
+  <title>Case Study - Dream Center</title>
 </head>
 
 <body>
@@ -41,78 +41,162 @@
         User Research<br>
         User Research Synthesis<br>
         UI/UX Prototyping<br>
+        UI/UX Prototype Testing<br>
       </div>
       <div class="container-sm col-2 mt-4 mb-5">
         <h6>Timeline</h6>
         January 12, 2024 -<br>
         February 5, 2024<br>
       </div>
-      </div>
     </div>
+  </div>
   </div>
   <!-- sidebar scrollspy -->
   <div class="container-fluid px-3">
     <div class="row">
       <div class="col-2">
-        <nav id="navbar-example3 sidebar"
-          class="sticky-toph-100 flex-column align-items-stretch pe-4 border-end sidebar sticky-top">
-          <nav class="nav nav-pills flex-column">
-            <a class="nav-link" href="#item-1">About</a>
-            <!-- <nav class="nav nav-pills flex-column">
-              <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
-              <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
-            </nav> -->
-            <a class="nav-link" href="#item-2">User Research</a>
-            <nav class="nav nav-pills flex-column">
-              <a class="nav-link ms-3 my-1" href="#item-2-1">Item 1-1</a>
-              <a class="nav-link ms-3 my-1" href="#item-2-2">Item 1-2</a>
-            </nav>
-            <a class="nav-link" href="#item-3">Item 3</a>
-            <nav class="nav nav-pills flex-column">
-              <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
-              <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+        <nav id="navbar-example3 sidebar" class="sticky-toph-100 flex-column align-items-stretch pe-4 border-end sidebar sticky-top">
+          <nav class="nav nav-pills flex-column groupnav">
+            <a class="nav-link main-ul" href="#item-1">About</a>
+            <nav class="nav nav-pills flex-column subgroup-ul">
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-1-1">The Problem</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-1-2">The Goal</a>
             </nav>
           </nav>
-        </nav>
+          <nav class="nav nav-pills flex-column groupnav">
+            <a class="nav-link main-ul" href="#item-2">User Research</a>
+            <nav class="nav nav-pills flex-column subgroup-ul">
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-2-1">Proto-Persona</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-2-2">Usability Heuristic Analysis</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-2-3">User Survey</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-2-4">User Interviews</a>
+            </nav>
+          </nav>
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link main-ul" href="#item-3">Definition & Ideation</a>
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-3-1">Competitor Analysis</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-3-2">Feature Definition and Prioritization</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-3-3">User Journey</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-3-4">User Storyboard</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-3-5">Card Sorting</a>
+            </nav>
+            <!-- <a class="nav-link main-ul" href="#item-4">Iterations & Testing</a>
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-1">User Flow</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-2">Sketches</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-3">Digital Wireframes</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-4">Lo-fi Prototype</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-5">Usability Testing and Iterations</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-5">Mid-Fi Prototype</a>
+            </nav>
+            <a class="nav-link main-ul" href="#item-5">Hi-Fi Prototyping</a>
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-5-1">UI Moodboard</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-5-2">Style Guide</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-5-3">Hi-Fi Prototype</a>
+            </nav>
+            <a class="nav-link" href="#item-6">Conclusion & Next Steps</a>
+          </nav> -->
+
+
+          <!-- <ul id="sidebar" class="nav flex-column">
+            <li>
+                <a href="#item-1">Group A</a>
+                <ul class="nav flex-column">
+                    <li>
+                      <a href="#item-1-1">Sub-Group 1</a>
+                    </li>
+                    <li>
+                      <a href="#item-1-2">Sub-Group 2</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#item-2">Group B</a>
+                <ul class="nav nav-stacked">
+                    <li><a href="#item-2-1">Sub-Group 1</a></li>
+                    <li><a href="#item-2-2">Sub-Group 2</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#GroupC">Group C</a>
+                <ul class="nav nav-stacked">
+                    <li><a href="#GroupCSub1">Sub-Group 1</a></li>
+                    <li><a href="#GroupCSub2">Sub-Group 2</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+        </nav> -->
+
+        <!-- //list
+          <div id="list-example" class="list-group sticky-toph-100 flex-column align-items-stretch pe-4 border-end sidebar sticky-top">
+          <a class="list-group-item list-group-item-action" href="#item-1">About</a>
+          <a class="list-group-item list-group-item-action" href="#item-2">User Research</a>
+          <a class="list-group-item list-group-item-action" href="#item-3">Ideation & Testing</a>
+          <a class="list-group-item list-group-item-action" href="#item-4">Item 4</a>
+        </div> -->
       </div>
       <div class="col-1"></div>
-      <div class="col-9 col-offset-3">
+      <div class="col-8 col-offset-3">
         <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true"
-          class="scrollspy-example-2" tabindex="0">
+          class="scrollspy-example" tabindex="0">
           <div id="item-1">
             <h4>About</h4>
             <p>In this group project, our assignment was to redesign the website of a nonprofit organization.
-              One of our team members had a connection to The Dream Center, a nonprofit organization dedicated to aiding
-              populations impacted by homelessness, hunger and the lack of education in Los Angeles through residential and community outreach programs.
-              Our team decided it was a worthy cause, and we would revamp the Dream Center's website to enhance the donation and volunteer experience.
+              One of our team members had a connection to Dream Center, a nonprofit organization dedicated to aiding
+              populations impacted by homelessness, hunger and the lack of education in Los Angeles through residential
+              and community outreach programs.
+              Our team decided it was a worthy cause, and we would revamp Dream Center's website to enhance the
+              donation and volunteer experience.
             </p>
-           
-            
-            
           </div>
           <div id="item-1-1">
-            <h5>Item 1-1</h5>
-            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
-              appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding
-              some more example copy here to emphasize the scrolling and highlighting.
-              This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
-              appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding
-              some more example copy here to emphasize the scrolling and highlighting.
-              This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
-              appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding
-              some more example copy here to emphasize the scrolling and highlighting.</p>
+            <h5>The Problem</h5>
+              <p>Potential supporters of Dream Center want to help but may be limited by time constraints. They also
+                seek clear information about the organization's mission, history, and impact. Users desire diverse
+                opportunities for involvement beyond monetary donations, and want to understand
+                where their contributions are going and the actual difference they are making.
+              </p>
           </div>
           <div id="item-1-2">
-            <h5>Item 1-2</h5>
-            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
-              appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding
-              some more example copy here to emphasize the scrolling and highlighting.</p>
+            <h5>The Goal</h5>
+            <p>Our goal is to redesign the Dream Center website to address these frustrations by:<br>
+              <ul>
+                <li>
+                  Providing users with a calendar of diverse volunteer events, ensuring they can easily coordinate their volunteer work based on their time and interests.
+                </li>
+                <li>
+                  Offering transparency on the organization's impact by showcasing the real-world results of donors' and volunteers' contributions.
+                </li>
+                <li>
+                  Providing users with personal dashboards to track their own contributions and navigate a clear list of available volunteering opportunities to simplify the sign-up process.
+                </li>
+              </ul>
+            </p>
+            <br>
           </div>
           <div id="item-2">
-            <h4>Item 2</h4>
-            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
-              appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding
-              some more example copy here to emphasize the scrolling and highlighting.</p>
+            <h4>User Research</h4>
+            <p>
+              Before we started user research proper, we first designed a proto-persona describing our target user, a prospective donor and volunteer for Dream Center.
+            </p>
+            <div id="item-2-1">
+              <h5>Proto-Persona</h5>
+              <p>As we designed our proto-persona, we thought that users would:
+                <ul>
+                  <li>
+                    Have a strong interest in volunteering.
+                  </li>
+                  <li>
+                    Be frustrated with aligning organizations to personal interests, a lack of responses from non-profits, and unsure of fund allocation.
+                  </li>
+                </ul>
+                <img src ="images/protopersona.png" class="img-fluid border rounded slideimage">
+              </p>
+            </div>
+              
           </div>
           <div id="item-3">
             <h4>Item 3</h4>
