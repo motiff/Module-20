@@ -7,9 +7,11 @@
   height: 70vh;
   position: relative;
 }
-/* .introSection{
-  justify-content: space-around;
-} */
+.introSection{
+  justify-content: center;
+  height: fit-content;
+  margin-bottom: 5%;
+}
 .title{
   position: absolute;
   bottom: 120px;
@@ -25,26 +27,27 @@
 .sidebar{
   top: 40px;
 }
-.col-2{
+.sidecol{
   display: unset;
 }
-.banner{
-  background-color: aqua;
-  /* background-image: "./images/dctop.png"; */
-  height: 100%;
-}
+
 h4{
   font-weight: bold;
 }
-
-/* .sidebar .nav ul.nav {
-  display: none;           
-}
-.sidebar .nav>.active>ul.nav {
-  display: block;           
-} */
-
-
-/* .sub-ul.active{
+.slideimage{
+  max-width: 90%;
+  margin-left: 5%;
   display: block;
-} */
+}
+.figure{
+  margin-bottom: 5px;
+}
+figcaption{
+  margin-bottom: 10px;
+}
+.subgroup-ul{
+  display: none;
+}
+.container-fluid{
+  padding: 0;
+}

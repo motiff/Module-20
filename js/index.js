@@ -1,25 +1,40 @@
-// window.addEventListener("scroll", function() {
-//     var header = document.getElementById("jumbotron");
-//       if ((window.scrollY) > (jumbotron.offsetTop + jumbotron.offsetHeight)) {
-//         // $(".sidebar").addClass("sticky-top");
-//           $(".sidebar").css("position", "sticky");
-//         //   $(".sidebar").css("width", "calc(((100% - 260px)/6) + 20px)");
-//       }
-//       else {
-//         // $(".sidebar").removeClass("sticky-top");
-//           $(".sidebar").css("position", "static");
-//         //   $(".sidebar").css("width", "auto");
-//       }
-//     });
-
 console.log("javascript loaded.");
+const firstScrollSpyEl = document.querySelector('[data-bs-spy="scroll"]')
+firstScrollSpyEl.addEventListener('activate.bs.scrollspy', () => {
+    $(".groupnav").each(function(){
+    if (($(this).children().hasClass("active"))){
+        $(this).find(".subgroup-ul").css("display", "block");
+        console.log("if triggered");
+    }
+    else{
+        $(this).find(".subgroup-ul").css("display", "none");
+        console.log("else triggered");
+    }
+    });
+})
+
+
+
 // window.addEventListener("scroll", function() {
-//     if (($(".groupnav").find(".main-ul").hasClass("active")) || ($(".groupnav").find(".subgroup-ul").hasClass("active"))){
-//         $(".groupnav").find(".subgroup-ul").css("display", "block");
-//         console.log("if triggered");
-//     }
-//     else{
-//         $(".groupnav").find(".subgroup-ul").css("display", "none");
-//         console.log("else triggered");
-//     }
+    
 // });
+
+// $.fn.isInViewport = function() {
+//     var elementTop = $(this).offset().top;
+//     var elementBottom = elementTop + $(this).outerHeight();
+//     var viewportTop = $(window).scrollTop();
+//     var viewportBottom = viewportTop + $(window).height();
+//     return elementBottom > viewportTop && elementTop < viewportBottom;
+//   };
+  
+//   window.addEventListener("scroll", function() {
+//     var section1 = document.getElementById("section-1");
+//     var section2 = document.getElementById("section-2");
+
+//     if ((window.scrollY > (section1.offsetTop - section1.offsetHeight)) && (window.scrollY < (section2.offsetTop - section2.offsetHeight))) {
+//         $("#subgroup-1").css("display", "block");
+//     }
+//     else {
+//         $("#subgroup-1").css("display", "none");
+//     }
+//     });
