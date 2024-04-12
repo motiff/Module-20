@@ -35,8 +35,9 @@ h4{
   font-weight: bold;
 }
 .slideimage{
-  max-width: 90%;
-  margin-left: 5%;
+  max-width: 85%;
+  margin-left: auto;
+  margin-right: auto;
   display: block;
 }
 .figure{
