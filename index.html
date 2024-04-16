@@ -69,6 +69,7 @@
               <a class="nav-link ms-3 my-1 sub-ul" href="#item-2-2">Usability Heuristic Analysis</a>
               <a class="nav-link ms-3 my-1 sub-ul" href="#item-2-3">User Survey</a>
               <a class="nav-link ms-3 my-1 sub-ul" href="#item-2-4">User Interviews</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-2-5">User Persona</a>
             </nav>
           </nav>
           <nav class="nav nav-pills flex-column groupnav">
@@ -77,19 +78,18 @@
               <a class="nav-link ms-3 my-1 sub-ul" href="#item-3-1">Competitor Analysis</a>
               <a class="nav-link ms-3 my-1 sub-ul" href="#item-3-2">Feature Definition and Prioritization</a>
               <a class="nav-link ms-3 my-1 sub-ul" href="#item-3-3">User Journey</a>
-              <a class="nav-link ms-3 my-1 sub-ul" href="#item-3-4">User Storyboard</a>
-              <a class="nav-link ms-3 my-1 sub-ul" href="#item-3-5">Card Sorting</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-3-4">Card Sorting</a>
             </nav>
           </nav>
           <nav class="nav nav-pills flex-column groupnav">
-            <a class="nav-link main-ul" href="#item-4">Iterations & Testing</a>
+            <a class="nav-link main-ul" href="#item-4">Testing & Iterating</a>
             <nav class="nav nav-pills flex-column subgroup-ul">
               <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-1">User Flow</a>
               <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-2">Sketches</a>
               <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-3">Digital Wireframes</a>
               <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-4">Lo-fi Prototype</a>
               <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-5">Usability Testing and Iterations</a>
-              <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-5">Mid-Fi Prototype</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-6">Mid-Fi Prototype</a>
             </nav>
           </nav>
           <nav class="nav nav-pills flex-column groupnav">
@@ -102,9 +102,6 @@
           </nav>
           <nav class="nav nav-pills flex-column groupnav">
             <a class="nav-link" href="#item-6">Conclusion</a>
-            <nav class="nav nav-pills flex-column subgroup-ul">
-              <a class="nav-link ms-3 my-1 sub-ul" href="#item-6-1">Next Steps</a>
-            </nav>
           </nav>
         </nav>
       </div>
@@ -112,130 +109,222 @@
       <div class="col-8 col-offset-3">
         <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="false"
           class="scrollspy-example" tabindex="0">
-          <section id = "section-1">
-            <div id="item-1">
-            <h4>About</h4>
-            <p><a href="https://dreamcenter.org">Dream Center</a> is a Los Angeles-based nonprofit organization dedicated to aiding
-              populations impacted by homelessness, hunger and the lack of education in Los Angeles through residential
-              and community outreach programs.
-              Our team aimed to revamp Dream Center's website to enhance the donation and volunteer experience.
-            </p>
-          </div>
-          <div id="item-1-1">
-            <h5>The Problem</h5>
-              <p>Potential supporters of Dream Center want to help but may be limited by time constraints. They also
-                seek clear information about the organization's mission, history, and impact. Users desire diverse
-                opportunities for involvement beyond monetary donations, and want to understand
-                where their contributions are going and the actual difference they are making.
+            <section id = "section-1">
+              <div id="item-1">
+              <h4>About</h4>
+              <p><a href="https://dreamcenter.org">Dream Center</a> is a Los Angeles-based nonprofit organization dedicated to aiding
+                populations impacted by homelessness, hunger and the lack of education in Los Angeles through residential
+                and community outreach programs.
+                Our team aimed to revamp Dream Center's website to enhance the donation and volunteer experience.
               </p>
-          </div>
-          <div id="item-1-2">
-            <h5>The Goal</h5>
-            <p>Our goal is to redesign the Dream Center website to address these frustrations by:<br>
-              <ul>
-                <li>
-                  Providing users with a calendar of diverse volunteer events, ensuring they can easily coordinate their volunteer work based on their time and interests.
-                </li>
-                <li>
-                  Offering transparency on the organization's impact by showcasing the real-world results of donors' and volunteers' contributions.
-                </li>
-                <li>
-                  Providing users with personal dashboards to track their own contributions and navigate a clear list of available volunteering opportunities to simplify the sign-up process.
-                </li>
-              </ul>
-            </p>
-          </div>
-          </section>
-          <section id="section-2"  class="mt-5">
-            <div id="item-2">
-            <h4>User Research</h4>
-            <p>
-              Before we started user research proper, we first designed a proto-persona describing our target user, a prospective donor and volunteer for Dream Center.
-            </p>
-            <div id="item-2-1">
-              <h5>Proto-Persona</h5>
-              <p>As we designed our proto-persona, we anticipated that users would:
+            </div>
+            <div id="item-1-1">
+              <h5>The Problem</h5>
+                <p>Potential supporters of Dream Center want to help but may be limited by time constraints. They also
+                  seek clear information about the organization's mission, history, and impact. Users desire diverse
+                  opportunities for involvement beyond monetary donations, and want to understand
+                  where their contributions are going and the actual difference they are making.
+                </p>
+            </div>
+            <div id="item-1-2">
+              <h5>The Goal</h5>
+              <p>Our goal is to redesign the Dream Center website to address these frustrations by:<br>
                 <ul>
                   <li>
-                    Have a strong interest in volunteering.
+                    Providing users with a calendar of diverse volunteer events, ensuring they can easily coordinate their volunteer work based on their time and interests.
                   </li>
                   <li>
-                    Be frustrated with aligning organizations to personal interests, a lack of responses from non-profits, and unsure of fund allocation.
+                    Offering transparency on the organization's impact by showcasing the real-world results of donors' and volunteers' contributions.
+                  </li>
+                  <li>
+                    Providing users with personal dashboards to track their own contributions and navigate a clear list of available volunteering opportunities to simplify the sign-up process.
                   </li>
                 </ul>
-                <img src ="images/protopersona.png" class="img-fluid border rounded slideimage">
               </p>
             </div>
-            <div id="item-2-2" class="container-fluid">
-              <h5>Usability Heuristics Analysis</h5>
+            </section>
+            <section id="section-2" class="mt-5">
+              <div id="item-2">
+              <h4>User Research</h4>
               <p>
-                We then analysed the current usability heuristics of the Dream Center: Los Angeles website. There were several great aspects to current site, but we did note some areas of improvement. <br>
-                Firstly, the website has a sign-up and log-in function, but it is not present on the primary navigation bar. It is only present on the "Donate" page, as shown below:
+                Before we started user research proper, we first designed a proto-persona describing our target user, a prospective donor and volunteer for Dream Center.
               </p>
-              <figure class="figure"><img src ="images/uh1-2.png" class="figure-image img-fluid border rounded w-75 mx-auto d-block"></figure>
-              <figcaption class="figure-caption text-center">The Donate page before signing in. Note the log-in/sign-up at the top right.</figcaption>
-              <br>
-              <figure class="figure"><img src ="images/uh1-3.png" class="figure-image img-fluid border rounded w-75 mx-auto d-block"></figure>
-              <figcaption class="figure-caption text-center">The Donate page after signing in.</figcaption>
-              <br>
-              <p>This is because an account does not pertain to any other function on the website besides a rudimentary way to save payment methods and to view donation history. The location of this log-in/sign-up function is not easy to find. This allowed us to imagine the log-in/sign-up function as always present on the main site's navigation, as well as integrating a user account in more functions of the website for a more unified experience.</p>
-              <br>
-              <p>Addtionally, in the website's primary navigation bar, it is difficult to identify how to view the available volunteer opportunities. There is also no search bar navigation available. Thus, it is not easily accessible if a user does not understand in which of the dropdown categories they might find the information they are looking for.
-              </p>
-              <figure class="figure"><img src ="images/uh2.png" class="figure-image img-fluid border rounded w-100 mx-auto d-block"></figure>
-              <figcaption class="figure-caption text-center">The website's primary navigation bar.</figcaption> 
-              <br>
+              <div id="item-2-1">
+                <h5>Proto-Persona</h5>
+                <p>As we designed our proto-persona, we anticipated that users would:
+                  <ul>
+                    <li>
+                      Have a strong interest in volunteering.
+                    </li>
+                    <li>
+                      Be frustrated with aligning organizations to personal interests, a lack of responses from non-profits, and unsure of fund allocation.
+                    </li>
+                  </ul>
+                  <img src ="images/protopersona.png" class="img-fluid border rounded slideimage">
+                </p>
+              </div>
+              <div id="item-2-2" class="container-fluid">
+                <h5>Usability Heuristics Analysis</h5>
+                <p>
+                  We then analysed the current usability heuristics of the Dream Center: Los Angeles website. There were several great aspects to current site, but we did note some areas of improvement.<br>
+                  Firstly, the website has a sign-up and log-in function, but it is not present on the primary navigation bar. It is only present on the "Donate" page, as shown below:
+                </p>
+                <figure class="figure"><img src ="images/uh1-2.png" class="figure-image img-fluid border rounded w-75 mx-auto d-block"></figure>
+                <figcaption class="figure-caption text-center">The Donate page before signing in. Note the log-in/sign-up at the top right.</figcaption>
+                <br>
+                <figure class="figure"><img src ="images/uh1-3.png" class="figure-image img-fluid border rounded w-75 mx-auto d-block"></figure>
+                <figcaption class="figure-caption text-center">The Donate page after signing in.</figcaption>
+                <br>
+                <p>This is because an account does not pertain to any other function on the website besides a rudimentary way to save payment methods and to view donation history. The location of this log-in/sign-up function is not easy to find. This allowed us to imagine the log-in/sign-up function as always present on the main site's navigation, as well as integrating a user account in more functions of the website for a more unified experience.</p>
+                <br>
+                <p>Addtionally, in the website's primary navigation bar, it is difficult to identify how to view the available volunteer opportunities. There is also no search bar navigation available. Thus, it is not easily accessible if a user does not understand in which of the dropdown categories they might find the information they are looking for.
+                </p>
+                <figure class="figure"><img src ="images/uh2.png" class="figure-image img-fluid border rounded w-100 mx-auto d-block"></figure>
+                <figcaption class="figure-caption text-center">The website's primary navigation bar.</figcaption> 
+                <br>
+              </div>
+              <div id="item-2-3">
+                <h5>User Survey</h5>
+                <p>We conducted a user survey. Unfortunately, finding a sample comprised only of Dream Center volunteers and donors was not feasible for us, so we surveyed anyone who has interacted with any nonprofit organization.</p>
+                <img src ="images/survey.png" class="figure-image img-fluid border rounded slideimage"><br>
+              </div>
+              <div id="item-2-4">
+                <h5>User Interviews</h5>
+                <p>We conducted five user interviews. The key insights of these interviews taught us that users value having a website that is up-to-date and clearly presents the organization's identity and mission. They need to understand how they can help, different ways they can help, and what impact they are helping to make.</p>
+                <img src ="images/ui.png" class="figure-image img-fluid border rounded slideimage"><br>
+                <br>
+              </div>
+              <div id="item-2-5">
+                <h5>User Persona</h5>
+                <p>We then created an updated user persona by synthesizing the insights gained from our user research.</p>
+                <img src ="images/userpersona.png" class="figure-image img-fluid border rounded slideimage"><br>
+              </div>
+            </section>
+          <section id="section-3" class="mt-5">
+            <div id="item-3">
+              <h4>Definition & Ideation</h4>
+              <p>With an idea of what users need, we start to define and ideate what how to carry out our redesign.</p>
+            </div>
+            <div id="item-3-1">
+              <h5>Competitor Analysis</h5>
+              <p>Our direct competitors were nonprofit organizations with a similar mission and audience to Dream Center: <a href="
+                https://www.midnightmission.org/">Midnight Mission</a>, <a href="https://www.epath.org/about/">PATH</a>, and <a href="https://www.salvationarmyusa.org/usn/">Salvation Army</a>. Our indirect competitors included <a href="
+                https://www.goodwill.org/">Goodwill</a> and <a href="https://www.apch.org/">A Place Called Home</a>, other nonprofit organizations that serve a different audience but nevertheless involve participation and donations.</p>
+                <img src="images/comp.png" class="figure-image img-fluid border rounded slideimage"><br>
+                <p>We noted the readability of each of these websites' navigation and display of their mission. We also noticed similarities in features. All of them have a prominently displayed Donate call-to-action button that would take you to the portal to donate. They had also had some form of volunteer sign-up, but it would be located in different places, but more commonly under a "Get Involved" option in the dropdown menu. We admired A Place Called Home for their event calendar feature which let users view upcoming events without first having to sign up. We also were inspired by PATH's graphics that displayed statistics that reported their organization's impact.</p>
+            </div>
+            <div id="item-3-2">
+              <h5>Feature Definition and Prioritization</h5>
+              <p>We created an I Like, I Wish, What If chart and a Feature Prioritization Matrix that allowed us to vote on, define, and organize ideas for features based on feasibility and originality.</p>
+                <img src="images/ilike.jpg" class="figure-image img-fluid border rounded slideimage"> <br>
+                <img src="images/matrix.jpg" class="figure-image img-fluid border rounded slideimage"> <br>
+                <p>We planned to execute the following ideas in the "Now" and "Wow!" sections to serve our user's needs while imagining more advanced ideas for future features in the "How?" section.</p>
+                <ul>
+                  <li><b>Key features in the “Now” portion: </b>making the website easily readable, easily to access main utilities</li>
+                  <li><b>More original and advanced ideas near the “Wow!” section:</b> An event calendar, user dashboard, impact report</li>
+                  <li><b>Interesting “How?” ideas for the future:</b> Quiz to match volunteers, VR experience, better donation tracking</li>
+                </ul>
+                <p>By developing a new website for the Dream Center with a transparent reporting system of use of donated funds, a updated event calendar system, and a personalized dashboard, we help prospective volunteers and donors to solve roadblocks in trusting the organization, getting involved, and staying motivated.</p><br>
+
+            </div>
+            <div id="item-3-3">
+              <h5>User Journey</h5>
+              <p>Our user persona, Jessica Gates, is actively searching for an organization that supports individuals affected by homelessness, hunger, and lack of education. During her quest, she discovers the Dream Center website and is eager to explore opportunities to get involved. She is specifically seeking details on how to join their volunteering services.<br>Her goals are to:</p>
+                <ul>
+                  <li>Volunteer and get involved with Dream Center in a way that aligns with her personal goals.</li>
+                  <li>See how her donations are used by Dream Center.</li>
+                </ul>
+                We created a user journey map to map out the thoughts and feelings that Jessica has in interacting with our redesigned Dream Center website. <br>
+                <img src="images/userjourney.png" class="figure-image img-fluid border rounded slideimage"> <br>
+                <ol>
+                  <li>Jessica searches online for organizations for a cause she believes in. After some time, she happens upon the Dream Center website.</li>
+                  <li>Her curiosity is piqued looking at the home page. It has eyecatching graphics, and she sees their mission upfront and likes their cause.</li>
+                  <li>However, Jessica doesn't know if she can trust Dream Center. She looks for more information.</li>
+                  <li>From clicking "Our Impact," she finds the transparency reporting system to view how donated funds are being used, and feels more trusting.</li>
+                  <li>Jessica decides she wants to get involved, but she can't donate much money. She looks for how she can volunteer.</li>
+                  <li>Jessica finds and reads the calendar of volunteer events and explores the details of the event she is interested in, such as date, time, location, and the specific tasks involved.</li>
+                  <li>Jessica identifies a volunteer event that matches with her schedule, and that is a part of a program that resonates with her interests and skills. She feels a personal connection to the program.</li>
+                  <li>Jessica decides to commit and clicks on the event's sign-up button.</li>
+                  <li>She recieves a confirmation email with additional details about the event. She also is prompted to create an account. When she signs up, she accesses a personal dashboard showing her contribution history, a list of upcoming events, and messages from fellow members of the organization welcoming her. She feels connected to Dream Center and motivated to keep contributing.</li>
+                </ol><br>
               
             </div>
-            <div id="item-2-3">
-              <h5>User Survey</h5>
-              We then analysed the current usability heuristics of the Dream Center: Los Angeles website. There were several great aspects to current site, but we did note some areas of improvement.
+            <div id="item-3-4">
+              <h5>Card Sorting</h5>
+              <p>We then redesigned the information architecture of the website to help users find the information and utilities they want to access more easily. Through the activity of card sorting, we worked out the main categories on the primary navigation bar: About Us, Our Impact, Programs, Volunteer, Gain Experience, and Donate. Volunteer and Donate were previously grouped under "Get Involved," however, the having them as two discrete choices helps users more easily find what they want to do. Additionally, the utilities of Contact Us, the Event Calendar, and the User Dashboard were also added to the primary navigation and accessible at all times. We also listed the functions that would be located on the User Dashboard. The same important information and functions of subscribing to the email newsletter, Dream Center's address, and social media links were kept in the footer.</p>
+              <img src="images/cardsorting.jpg" class="figure-image img-fluid border rounded slideimage"> <br>
             </div>
-            <div id="item-2-4">
-              <h5>User Interviews</h5>
-              <img src ="images/ui.png" class="figure-image img-fluid border rounded slideimage">
-              We then analysed the current usability heuristics of the Dream Center: Los Angeles website. There were several great aspects to current site, but we did note some areas of improvement.
+          </section>
+
+          <section id="section-4" class="mt-5">
+            <div id="item-4">
+              <h4>Testing & Iterating</h4>
+              <p>With our plans, we began to formalize the structure of the website and create prototypes we can test and iterate upon.</p>
+            </div>
+            <div id="item-4-1">
+              <h5>User Flow</h5>
+              <p>Using the information architecture from our card sorting, we constructed a user flow. The user would either want to volunteer, donate, or view the organization's impact. We designed the primary navigation to make these paths as seamless as possible. When signing up to volunteer or donate, the user would be directed to create an account so that they may view the User Dashboard. From the User Dashboard they can view their contribution history and upcoming events.</p>
+              <img src="images/userflow.png" class="figure-image img-fluid border rounded slideimage"> <br>
+              <p>A part of the flow not pictured here is that the list of Programs would link to the individual pages of each program, that would each have links to volunteer and/or donate to them, to highlight their impact on the Impact Report, and to view their events on the Event Calendar. This has yet to be built out.</p>
+            </div>
+            <div id="item-4-2">
+              <h5>Sketches</h5>
+              <p>We then sketched out what the user interface might look like.</p>
+              <img src="images/sketches.png" class="figure-image img-fluid border rounded slideimage"><br>
+            </div>
+            <div id="item-4-3">
+              <h5>Digital Wireframes</h5>
+              <img src="images/wireframe.png" class="figure-image img-fluid border rounded slideimage"><br>
+            </div>
+            <div id="item-4-4">
+              <h5>Lo-fi Prototype</h5>
+              <p>We made slight changes from our digital wireframes to lo-fi prototypes based on teacher feedback, such as increasing the breathing room between elements on the home page.</p>
+              <img src="images/lofi.png" class="figure-image img-fluid border rounded slideimage"><br>
+            </div>
+            <div id="item-4-5">
+              <h5>Usability Testing and Iterations</h5>
+              <p>
+                We then took our lo-fi prototype to conduct usability tests.
+                The questions we wanted to answer with our test are:
+                <ul>
+                  <li>Will users be able to reach the Volunteer Opportunities page easily?</li>
+                  <li>Will users be able to identify the search, calendar, contact, and login buttons on the home page?</li>
+                  <li>Will users be able to find details about the "Our Impact Report"?</li>
+                </ul>
+                </p>
+                Based on the results, we made iterations to the prototypes:
+              <img src="images/iteration.png" class="figure-image img-fluid border rounded slideimage"><br>
+            </div>
+            <div id="item-4-6">
+              <h5>Mid-Fi Prototype</h5>
+              <img src="images/midfi.png" class="figure-image img-fluid border rounded slideimage"><br>
+            </div>
+          </section>
+          <section id="section-5" class="mt-5">
+            <div id="item-5"><h4>Hi-Fi Prototyping</h4>
+            <p>After nailing the structure of the user interface, we moved refine the visual design's colors, imagery, typography, and UI patterns.</p></div>
+            <div id="item-5-1"><h5>UI Moodboard</h5>
+              <p>In assembling the moodboard, we viewed other nonprofit websites, including some that we included in our competitor analysis, to find colors, imagery, and UI patterns that encouraged users to give. We liked the existing authoritative, clean look of white, black, blue, and navy, but also liked more warm and vibrant colors that felt welcoming and evoked community.</p>
+                <img src="images/moodboard.png" class="figure-image img-fluid border rounded slideimage"><br>
+            </div>
+            <div id="item-5-2"><h5>Style Guide</h5>
+              <p>Dream Center has somewhat of an <a href="https://www.dreamcenter.org/wp-content/uploads/2019/09/DC_logoGuidelines.pdf">existing style guide</a> with their logo, color palette, and typography that we wanted to preserve. We added the accent color of red to bring more excitement and better highlight certain elements in our new features. We also added new icons to represent our new features.</p>
+                <img src="images/styleguide.png" class="figure-image img-fluid border rounded slideimage"><br>
+            </div>
+            <div id="item-5-3"><h5>Hi-Fi Prototype</h5>
+              <p>You can view our full clickable hi-fi prototype <a href="https://www.figma.com/proto/LtZwkftSgINBc9dQebhmJW/Team-Project---2-Prototype?page-id=1087%3A880&type=design&node-id=1087-1568&viewport=345%2C203%2C0.08&t=PSN0HnDYcfUGGnai-1&scaling=scale-down&starting-point-node-id=1087%3A1568&mode=design">here</a>.</p>
+              <img src="images/hifi.png" class="figure-image img-fluid border rounded slideimage"><br>
+            </div>
+          </section>
+          <section id="section-6" class="mt-5 mb-5">
+            <div id="item-6">
+              <h4>Conclusion</h4>
+              <p>In a group project, we practiced how to divide and conquer our work, and to ask for help from our team members when we needed it. We also learned how to incorporate an existing style guide into a website redesign.</p>
+              <p>Our next steps beyond this three-week working period would be to fully build out the program pages, the event calendar's filter system, fully integrate the impact report with a interactive live tracking system across the program and user dashboard pages, and conduct A/B testing in our hi-fi prototype.</p>
+              <p>This redesign project involved extensive user research and testing to create new features for Dream Center's website. These features serve the needs of prospective volunteers and donors and can be adapted to improve other nonprofit websites.</p>
             </div>
           </section>
           
-              
-          </div>
-          <div id="item-3">
-            <h4>Definition & Ideation</h4>
-            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
-              appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding
-              some more example copy here to emphasize the scrolling and highlighting.</p>
-          </div>
-          <div id="item-3-1">
-            <h5>Competitor Analysis</h5>
-            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
-              appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding
-              some more example copy here to emphasize the scrolling and highlighting.</p>
-          </div>
-          <div id="item-3-2">
-            <h5>Feature Definition and Prioritization</h5>
-            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
-              appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding
-              some more example copy here to emphasize the scrolling and highlighting.</p>
-          </div>
-          <div id="item-3-3">
-            <h5>User Journey</h5>
-            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
-              appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding
-              some more example copy here to emphasize the scrolling and highlighting.</p>
-          </div>
-          <div id="item-3-4">
-            <h5>User Storyboard</h5>
-            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
-              appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding
-              some more example copy here to emphasize the scrolling and highlighting.</p>
-          </div>
-          <div id="item-3-5">
-            <h5>Card Sorting</h5>
-            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
-              appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding
-              some more example copy here to emphasize the scrolling and highlighting.</p>
-          </div>
         </div>
       </div>
     </div>
