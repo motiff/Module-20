@@ -1,3 +1,7 @@
+body{
+  overflow-x: unset;
+  font-family: Roboto, sans-serif;
+}
 .fill{
   /* background-image: url(https://cataas.com/cat); */
   background-image: url("../images/dcbanner.png");
@@ -27,6 +31,15 @@
 }
 .sidebar{
   top: 40px;
+}
+.nav-link{
+  color: black;
+  font-weight: bold;
+}
+.nav-link.active{
+  color: black !important;
+  text-decoration: underline;
+  background-color: white !important;
 }
 .sidecol{
   display: unset;
