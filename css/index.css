@@ -3,7 +3,6 @@ body{
   font-family: Roboto, sans-serif;
 }
 .fill{
-  /* background-image: url(https://cataas.com/cat); */
   background-image: url("../images/dcbanner.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,12 +20,14 @@ body{
   position: absolute;
   bottom: 120px;
   right: 50px;
+  color: black;
   text-shadow: 1px 1px 4px darkgray;
 }
 .subtitle{
   position: absolute;
   bottom: 80px;
   right: 50px;
+  color: black;
   text-shadow: 1px 1px 4px darkgray;
 }
 .sidebar{
@@ -41,11 +42,18 @@ body{
   text-decoration: underline;
   background-color: white !important;
 }
+.nav-link:hover{
+  color:#6e64ff;
+}
 .sidecol{
   display: unset;
 }
 h4{
   font-weight: bold;
+}
+h5{
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 .slideimage{
   max-width: 85%;
@@ -64,4 +72,25 @@ figcaption{
 }
 .container-fluid{
   padding: 0;
+}
+.prototypebutton{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: #6e64ff;
+  border: 2px solid #6e64ff !important;
+}
+.prototypebutton:hover{
+  background-color: white;
+  color: #6e64ff;
+  border: 2px solid #6e64ff !important;
+}
+.button-link{
+  text-decoration: none !important;
+}
+/* hide sidebar */
+@media only screen and (max-width:1179px){
+  .sidebar{
+    visibility: hidden;
+  }
 }
